@@ -1,0 +1,2 @@
+# VoIPWeb
+This project was an experimental development of an IAX softphone applet developed on top of some joomla plugins. The web platform would automatically configure the applet and the asterisk server to accept connections from the new registered users who would have access to prepaid calls with consultants provided by the company. This project was just a prototype and got presented as bachelor thesis in July 2011 at Unicam. 
