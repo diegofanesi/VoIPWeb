@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="1.6.0" type="plugin" group="user" method="upgrade">
+	<name>Back-office Integration Plugin</name>
+	<author>Diego Fanesi</author>
+	<creationDate>14-08-2010</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+	<version>2.0</version>
+	<description>User synchronisation plugin for Back-Office component</description>
+	<files>
+		<filename plugin="integration">integration.php</filename>
+	</files>
+</extension>

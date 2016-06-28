@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" method="upgrade">
+	<name>registration</name>
+	<author>Diego Fanesi</author>
+	<creationDate>April 2011</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>diego.fanesi@linuxsystems.it</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Modulo di registrazione</description>
+	<files>
+		<filename module="mod_registration">mod_registration.php</filename>
+		<filename>image.png</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<url>
+					<field name="link" type="text"
+						default="index.php/component/users/?view=registration" label="Registration link"
+						description="Link to registration page." />
+				</url>
+				<field name="startstr" type="text"
+						default="Start wrapper" label="Start area comment"
+						description="Content of first comment situated at beginning of wrapper area." />
+				<field name="endstr" type="text"
+						default="End wrapper" label="End area comment"
+						description="Content of second comment situated at beginning of wrapper area." />
+				
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" method="upgrade">
+	<name>fcHelp</name>
+	<author>Diego Fanesi</author>
+	<creationDate>November 2010</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>diego.fanesi@studenti.unicam.it</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.5.0</version>
+	<description>Help</description>
+	<files>
+		<filename module="mod_fchelp">mod_fchelp.php</filename>
+		<filename module="mod_fchelp">help.png</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="debug" type="radio" default="0" label="Debug Mode"
+					description="">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="moduleclass_sfx" type="text" default=""
+					label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="cache" type="list" default="0" label="Caching"
+					description="Select whether to cache the content of this module">
+					<option value="1">Use global</option>
+					<option value="0">No caching</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="Cache Time"
+					description="The time before the module is recached" />
+			</fieldset>
+		</fields>
+	</config>
+
+	<languages>
+		<!-- Any language files included with the module -->
+		<language tag="it-IT">it-IT.mod_fchelp.ini</language>
+	</languages>
+</extension>

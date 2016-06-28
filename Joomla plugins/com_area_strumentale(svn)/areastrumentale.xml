@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+	<name>Area Strumentale</name>
+	<creationDate>2010/01/01</creationDate>
+	<author>Diego Fanesi</author>
+	<copyright>Copyright 2010 Unicam</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<version>2.1</version>
+	<description>Area Strumentale</description>
+	<scriptfile>scriptfile.php</scriptfile>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.mysql.sql</file>
+		</sql>
+	</install>
+
+	<files folder="site">
+		<filename>areastrumentale.php</filename>
+		<filename>controller.php</filename>
+		<folder>views</folder>
+		<folder>models</folder>
+		<folder>tables</folder>
+	</files>
+
+	<administration>
+		<menu>AreaStrumentale</menu>
+		<files folder="admin">
+			<filename>install.mysql.sql</filename>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>areastrumentale.php</filename>
+		</files>
+	</administration>
+</extension>

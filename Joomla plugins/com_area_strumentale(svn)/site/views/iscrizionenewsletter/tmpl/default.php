@@ -1,0 +1,3 @@
+<script language="JavaScript">
+<?php 
+?>

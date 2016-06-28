@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+.FiltroErrato {
+	background-color: red;
+}
+
+#TabellaBandi td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+#TabellaBandi .pari {
+	background-color: #D5D5D5;
+}
+
+#TabellaBandi .dispari {
+	background-color: #FFFFFF;
+}
+
+#PagineBandiLower p, #PagineBandiUpper p {
+	text-align: right;
+}
+
+#PagineBandiLower span, #PagineBandiUpper span {
+	font-weight: bold;	
+}
+
+.PaginaBandi {
+	color: blue;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.PaginaBandi:hover {
+	text-decoration: underline;
+}
+
+.PaginaCorrente {
+	margin-right: 5px;
+}
+
+#TabellaBandi a {
+	color: #1C55DB;
+}
+
+button.Calendar {
+    border: none;
+    background-color: white;
+    color: red;
+}
+
+table.Calendar {
+	border: 1px solid gray;
+	background-color: #EEEEEF;
+	text-align: center;
+}
+
+table.Calendar td button {
+	color: black;
+	background-color: #D5D5D5;
+	width: 25px;
+	height: 25px;
+    border: none;
+}
+
+table.Calendar th button {
+	color: yellow;
+	background-color: #174DD4;
+	width: 100%;
+	height: 20px;
+    border: none;
+}

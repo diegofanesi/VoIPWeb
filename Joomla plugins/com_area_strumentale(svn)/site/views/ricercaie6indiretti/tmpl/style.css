@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+#TabellaBandi td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+#TabellaBandi .pari {
+	background-color: #D5D5D5;
+}
+
+#TabellaBandi .dispari {
+	background-color: #FFFFFF;
+}
+
+#TabellaBandi a {
+	color: #1C55DB;
+}

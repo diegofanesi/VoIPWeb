@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+button.Calendar {
+    border: none;
+    background-color: white;
+    color: red;
+}
+
+table.Calendar {
+	border: 1px solid gray;
+	background-color: #EEEEEF;
+	text-align: center;
+}
+
+table.Calendar td button {
+	color: black;
+	background-color: #D5D5D5;
+	width: 25px;
+	height: 25px;
+    border: none;
+}
+
+table.Calendar th button {
+	color: yellow;
+	background-color: #174DD4;
+	width: 100%;
+	height: 20px;
+    border: none;
+}
